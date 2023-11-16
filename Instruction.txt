@@ -32,4 +32,18 @@ Git commands here
         - to see if i'm getting any exeptions, where\when and the type -> use utils folder
         - code the functions
         - open research\trials.ipynb and set the kernel to kidney python environment and check box exeptions and @ensure_annotations decorator
-    - create utils module
+    - commit utils
+6. follow Project workflow on readme! Basically update the CNN_Classifier
+    - Data Ingestion
+        - Download images -> make 2 folders (normal + tumor) -> zip -> add to google drive -> click on zipped folder -> copy link
+          -> give access to anyone (important)
+          GDRIVE LINK >>> https://drive.google.com/file/d/1Sm3W06lYtO1f3i6RM0z3iiET1zdBj6AO/view?usp=sharing <<<
+          PRFIX FOR DOWNLOAD >>> prefix = "https://drive.google.com/uc?/export=download&id=" <<<
+        - config.yaml and define variables for data ingestion
+        - params.yaml
+        - entity -> create everything inside the 01_data_ingestion and then add
+        - src\CNN_Classifier\constants\__init__.py -> code the linking between config.yaml and paraml.yaml
+        - ...
+        - ...
+        - ...
+Amazing, now if i wanto to updat or change something i can just modify the config.yaml file due to the amazing project structure.
