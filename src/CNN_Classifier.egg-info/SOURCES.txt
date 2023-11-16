@@ -19,4 +19,5 @@ src/CNN_Classifier/constants/__init__.py
 src/CNN_Classifier/entity/__init__.py
 src/CNN_Classifier/pipeline/__init__.py
 src/CNN_Classifier/utils/__init__.py
+src/CNN_Classifier/utils/common.py
 templates/index.html
