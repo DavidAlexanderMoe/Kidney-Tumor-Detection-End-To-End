@@ -22,5 +22,14 @@ Git commands here
 2. Create template and run with python template.py
 3. commit and push to repo: git add . -> git commit -m "message" -> git push origin main -> refresh github repo on web
 4. setup.py code and then create virtual env: conda create -n kidney python=3.8 -y
-    conda activate kidney
-    pip install -r requirements.txt
+    - conda activate kidney
+    - pip install -r requirements.txt
+5. Logging, Exeption & Utils:   ------> these 3 things are needed to start the implementation
+    - create Logging module
+        - open src -> cnn clf -> __init__.py and code the logger
+        - import the created logger (CNN_Classifier/__init__.py) in main.py and check the new folder with running logs
+    - Technicals for exeptions
+        - to see if i'm getting any exeptions, where\when and the type -> use utils folder
+        - code the functions
+        - open research\trials.ipynb and set the kernel to kidney python environment and check box exeptions and @ensure_annotations decorator
+    - create utils module
