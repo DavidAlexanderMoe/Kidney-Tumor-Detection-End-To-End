@@ -1,0 +1,26 @@
+1. GitHub repo setup
+2. Project Template creation
+3. Setup & Requirements installation
+4. Logging, Utils & Exeption module
+5. Model workflows
+6. All components notebook experiment
+7. All components modular code implementation
+8. Training Pipeline
+9. MLFlow (MLOps tool) for experiment tracking and model registration
+10. DVC (MLOps tool) for pipeline tracking and implementation
+11. Prediction Pipeline & User app creation
+12. Docker
+13. FInal CI/CD Deployment on AWS
+
+---------------------------------------------------------------------
+- Object classification task using Deep Learning
+- Kidney CT scan images with normal and tumored kidneys (bright colors present in the kidneys and malformed kidneys)
+- kidney/renal tumors are growths in the kidneys that can be benign or cancerous. Most do not cause symptoms and are discovered unexpectedly when you are beign diagnosed and treated for another condition.
+--------------------------------------------------------------------
+Git commands here
+1. open Git Bash -> git clone https repo -> cd to access folder -> code . to open the folder in vscode
+2. Create template and run with python template.py
+3. commit and push to repo: git add . -> git commit -m "message" -> git push origin main -> refresh github repo on web
+4. setup.py code and then create virtual env: conda create -n kidney python=3.8 -y
+    conda activate kidney
+    pip install -r requirements.txt
