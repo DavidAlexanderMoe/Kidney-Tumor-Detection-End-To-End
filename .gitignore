@@ -1,1 +1,3 @@
 artifacts/*
+src/CNN_Classifier.egg-info/*
+Instruction.txt
