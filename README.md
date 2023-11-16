@@ -21,7 +21,7 @@ End to End Kidney disease classification using Deep Learning, MLFlow, DVC, and D
 Clone the repository
 
 ```bash
-https://github.com/krishnaik06/Kidney-Disease-Classification-Deep-Learning-Project
+https://github.com/DavidAlexanderMoe/Kidney-Tumor-Detection-End-To-End
 ```
 ### STEP 01- Create a conda environment after opening the repository
 
