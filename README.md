@@ -15,6 +15,11 @@ End to End Kidney disease classification using Deep Learning, MLFlow, DVC, and D
 9. Update the dvc.yaml
 10. app.py
 
+
+# MLFlow Model Monitoring Preview
+![Alt text](image.png)
+
+
 # How to run?
 ### STEPS:
 

@@ -15,6 +15,8 @@ class EvaluationPipeline:
         evaluation = Evaluation(eval_config)
         evaluation.evaluation()
         evaluation.log_into_mlflow()
+        # evaluation.save_score()
+        
 
 
 if __name__ == "__main__":
@@ -26,3 +28,5 @@ if __name__ == "__main__":
     except Exception as e:
         logger.exception(e)
         raise e
+    
+

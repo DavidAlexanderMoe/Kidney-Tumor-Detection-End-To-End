@@ -3,7 +3,7 @@ from pathlib import Path
 import mlflow
 import mlflow.keras
 from urllib.parse import urlparse
-from CNN_Classifier.utils.common import read_yaml, create_directories, save_json
+from CNN_Classifier.utils.common import save_json
 from CNN_Classifier.entity.config_entity import EvaluationConfig
 
 
@@ -68,10 +68,9 @@ class Evaluation:
         mlflow.set_registry_uri(self.config.mlflow_uri)
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
         
-        with mlflow.start_run():            # start tracking
-            mlflow.log_params(self.config.all_params)           # log parameters and metrics
-            mlflow.log_metrics(
-                {"loss": self.score[0], "accuracy": self.score[1]})
+        with mlflow.start_run():
+            mlflow.log_params(self.config.all_params)
+            mlflow.log_metrics({"loss": self.score[0], "accuracy": self.score[1]})
             
             # Model registry does not work with file store
             if tracking_url_type_store != "file":
@@ -83,3 +82,7 @@ class Evaluation:
                 mlflow.keras.log_model(self.model, "model", registered_model_name="VGG16Model")
             else:
                 mlflow.keras.log_model(self.model, "model")
+                # print a warning or handle the case where Model Registry is not available
+                print("\nModel Registry is not available when using a local file store.")
+                print("Model is saved into mlruns folder: click on the link given by typning mlflow ui in the terminal.\n")
+

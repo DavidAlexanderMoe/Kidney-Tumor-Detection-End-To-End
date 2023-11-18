@@ -462,3 +462,636 @@ x=========x]
 [2023-11-18 17:04:25,718: INFO: main: >>>>> stage Model Evaluation completed <<<<<
 
 x=========x]
+[2023-11-18 17:08:53,551: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 17:08:53,568: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 17:08:53,578: INFO: common: created directory at: artifacts]
+[2023-11-18 17:08:53,586: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-11-18 17:08:53,590: INFO: 690492142: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-18 17:08:56,546: INFO: 690492142: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-18 17:09:22,710: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 17:09:22,722: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 17:09:22,725: INFO: common: created directory at: artifacts]
+[2023-11-18 17:09:22,732: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-11-18 17:09:23,230: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-11-18 17:09:36,853: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 17:09:36,867: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 17:09:36,870: INFO: common: created directory at: artifacts]
+[2023-11-18 17:09:36,879: INFO: common: created directory at: artifacts\training]
+[2023-11-18 17:19:03,496: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 17:19:03,512: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 17:19:03,516: INFO: common: created directory at: artifacts]
+[2023-11-18 17:19:03,519: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-11-18 17:19:03,522: INFO: 690492142: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-18 17:19:06,806: INFO: 690492142: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-18 17:19:24,632: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 17:19:24,647: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 17:19:24,658: INFO: common: created directory at: artifacts]
+[2023-11-18 17:19:24,661: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-11-18 17:19:25,210: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-11-18 17:19:46,135: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 17:19:46,138: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 17:19:46,152: INFO: common: created directory at: artifacts]
+[2023-11-18 17:19:46,157: INFO: common: created directory at: artifacts\training]
+[2023-11-18 17:21:00,325: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 17:21:00,340: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 17:21:00,343: INFO: common: created directory at: artifacts]
+[2023-11-18 17:22:05,475: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 17:22:05,490: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 17:22:05,494: INFO: common: created directory at: artifacts]
+[2023-11-18 17:22:18,525: INFO: common: json file saved at: scores.json]
+[2023-11-18 17:24:40,340: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 17:24:40,354: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 17:24:40,357: INFO: common: created directory at: artifacts]
+[2023-11-18 17:24:52,751: INFO: common: json file saved at: scores.json]
+[2023-11-18 17:24:57,728: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-11-18 17:24:58,370: INFO: builder_impl: Assets written to: C:\Users\david\AppData\Local\Temp\tmpjmhtcmcb\model\data\model\assets]
+[2023-11-18 17:27:37,110: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2023-11-18 17:27:37,123: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 17:27:37,139: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 17:27:37,143: INFO: common: created directory at: artifacts]
+[2023-11-18 17:27:37,146: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-11-18 17:27:37,148: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-18 17:27:40,466: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-18 17:27:47,517: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x=========x]
+[2023-11-18 17:28:09,973: INFO: utils: NumExpr defaulting to 8 threads.]
+[2023-11-18 17:28:15,321: INFO: main: >>>>> stage Prepare Base Model started <<<<<]
+[2023-11-18 17:28:15,331: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 17:28:15,344: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 17:28:15,345: INFO: common: created directory at: artifacts]
+[2023-11-18 17:28:15,347: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-11-18 17:28:15,914: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-11-18 17:28:22,138: INFO: main: >>>>> stage Prepare Base Model completed <<<<<
+
+x=========x]
+[2023-11-18 17:28:22,234: INFO: main: >>>>> stage Model Training started <<<<<]
+[2023-11-18 17:28:22,243: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 17:28:22,251: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 17:28:22,283: INFO: common: created directory at: artifacts]
+[2023-11-18 17:28:22,286: INFO: common: created directory at: artifacts\training]
+[2023-11-18 17:32:50,187: INFO: main: >>>>> stage Model Training completed <<<<<
+
+x=========x]
+[2023-11-18 17:32:55,952: INFO: main: >>>>> stage Model Evaluation started <<<<<]
+[2023-11-18 17:32:55,963: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 17:32:55,970: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 17:32:55,973: INFO: common: created directory at: artifacts]
+[2023-11-18 17:33:11,009: INFO: common: json file saved at: scores.json]
+[2023-11-18 17:33:13,500: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-11-18 17:33:14,197: INFO: builder_impl: Assets written to: C:\Users\david\AppData\Local\Temp\tmpraq8wtwu\model\data\model\assets]
+[2023-11-18 17:33:26,251: INFO: main: >>>>> stage Model Evaluation completed <<<<<
+
+x=========x]
+[2023-11-18 17:38:12,458: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2023-11-18 17:38:12,472: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 17:38:12,480: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 17:38:12,483: INFO: common: created directory at: artifacts]
+[2023-11-18 17:38:12,484: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-11-18 17:38:12,486: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-18 17:38:15,454: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-18 17:38:21,753: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x=========x]
+[2023-11-18 17:38:25,618: INFO: main: >>>>> stage Prepare Base Model started <<<<<]
+[2023-11-18 17:38:25,626: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 17:38:25,634: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 17:38:25,634: INFO: common: created directory at: artifacts]
+[2023-11-18 17:38:25,640: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-11-18 17:38:26,110: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-11-18 17:38:30,998: INFO: main: >>>>> stage Prepare Base Model completed <<<<<
+
+x=========x]
+[2023-11-18 17:38:31,013: INFO: main: >>>>> stage Model Training started <<<<<]
+[2023-11-18 17:38:31,021: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 17:38:31,029: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 17:38:31,031: INFO: common: created directory at: artifacts]
+[2023-11-18 17:38:31,031: INFO: common: created directory at: artifacts\training]
+[2023-11-18 17:41:53,717: INFO: main: >>>>> stage Model Training completed <<<<<
+
+x=========x]
+[2023-11-18 17:41:54,917: INFO: main: >>>>> stage Model Evaluation started <<<<<]
+[2023-11-18 17:41:54,936: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 17:41:54,950: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 17:41:54,953: INFO: common: created directory at: artifacts]
+[2023-11-18 17:42:07,434: INFO: common: json file saved at: scores.json]
+[2023-11-18 17:42:09,452: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-11-18 17:42:10,048: INFO: builder_impl: Assets written to: C:\Users\david\AppData\Local\Temp\tmpvlix39ic\model\data\model\assets]
+[2023-11-18 17:42:18,496: INFO: dir_util: creating G:\Il mio Drive\PROJECTS\Kidney-Tumor-Detection-End-To-End\mlruns\0\4208fa43706042729cda7594d62cefb2\artifacts\model\data]
+[2023-11-18 17:42:18,510: INFO: dir_util: creating G:\Il mio Drive\PROJECTS\Kidney-Tumor-Detection-End-To-End\mlruns\0\4208fa43706042729cda7594d62cefb2\artifacts\model\data\model]
+[2023-11-18 17:42:18,526: INFO: dir_util: creating G:\Il mio Drive\PROJECTS\Kidney-Tumor-Detection-End-To-End\mlruns\0\4208fa43706042729cda7594d62cefb2\artifacts\model\data\model\assets]
+[2023-11-18 17:42:18,565: INFO: dir_util: creating G:\Il mio Drive\PROJECTS\Kidney-Tumor-Detection-End-To-End\mlruns\0\4208fa43706042729cda7594d62cefb2\artifacts\model\data\model\variables]
+[2023-11-18 17:42:19,277: INFO: main: >>>>> stage Model Evaluation completed <<<<<
+
+x=========x]
+[2023-11-18 17:43:20,403: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 17:43:20,424: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 17:43:20,424: INFO: common: created directory at: artifacts]
+[2023-11-18 17:43:20,435: INFO: common: created directory at: artifacts\training]
+[2023-11-18 17:47:55,352: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 17:47:55,366: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 17:47:55,370: INFO: common: created directory at: artifacts]
+[2023-11-18 17:48:08,202: INFO: common: json file saved at: scores.json]
+[2023-11-18 17:48:45,185: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-11-18 17:48:45,841: INFO: builder_impl: Assets written to: C:\Users\david\AppData\Local\Temp\tmpp5p4v2zu\model\data\model\assets]
+[2023-11-18 18:06:43,468: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2023-11-18 18:06:43,483: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 18:06:43,492: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 18:06:43,500: INFO: common: created directory at: artifacts]
+[2023-11-18 18:06:43,513: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-11-18 18:06:43,517: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-18 18:06:46,495: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-18 18:06:52,620: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x=========x]
+[2023-11-18 18:06:57,118: INFO: main: **************************************]
+[2023-11-18 18:06:57,118: INFO: main: >>>>> stage Prepare Base Model started <<<<<]
+[2023-11-18 18:06:57,128: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 18:06:57,137: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 18:06:57,139: INFO: common: created directory at: artifacts]
+[2023-11-18 18:06:57,148: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-11-18 18:06:57,673: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-11-18 18:06:58,178: INFO: main: >>>>> stage Prepare Base Model completed <<<<<
+
+x=========x]
+[2023-11-18 18:06:58,196: INFO: main: **************************************]
+[2023-11-18 18:06:58,197: INFO: main: >>>>> stage Model Training started <<<<<]
+[2023-11-18 18:06:58,207: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 18:06:58,215: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 18:06:58,218: INFO: common: created directory at: artifacts]
+[2023-11-18 18:06:58,223: INFO: common: created directory at: artifacts\training]
+[2023-11-18 18:07:40,369: INFO: main: >>>>> stage Model Training completed <<<<<
+
+x=========x]
+[2023-11-18 18:07:41,800: INFO: main: **************************************]
+[2023-11-18 18:07:41,809: INFO: main: >>>>> stage Model Evaluation started <<<<<]
+[2023-11-18 18:07:41,818: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 18:07:41,828: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 18:07:41,831: INFO: common: created directory at: artifacts]
+[2023-11-18 18:07:59,442: INFO: common: json file saved at: scores.json]
+[2023-11-18 18:07:59,463: INFO: common: json file saved at: scores.json]
+[2023-11-18 18:08:01,743: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-11-18 18:08:02,392: INFO: builder_impl: Assets written to: C:\Users\david\AppData\Local\Temp\tmpfmdbpof1\model\data\model\assets]
+[2023-11-18 18:08:10,842: INFO: dir_util: creating G:\Il mio Drive\PROJECTS\Kidney-Tumor-Detection-End-To-End\mlruns\0\77b0ad3da77442e08c7d4de1572c99b3\artifacts\model\data]
+[2023-11-18 18:08:10,860: INFO: dir_util: creating G:\Il mio Drive\PROJECTS\Kidney-Tumor-Detection-End-To-End\mlruns\0\77b0ad3da77442e08c7d4de1572c99b3\artifacts\model\data\model]
+[2023-11-18 18:08:10,868: INFO: dir_util: creating G:\Il mio Drive\PROJECTS\Kidney-Tumor-Detection-End-To-End\mlruns\0\77b0ad3da77442e08c7d4de1572c99b3\artifacts\model\data\model\assets]
+[2023-11-18 18:08:10,939: INFO: dir_util: creating G:\Il mio Drive\PROJECTS\Kidney-Tumor-Detection-End-To-End\mlruns\0\77b0ad3da77442e08c7d4de1572c99b3\artifacts\model\data\model\variables]
+[2023-11-18 18:08:11,650: INFO: main: >>>>> stage Model Evaluation completed <<<<<
+
+x=========x]
+[2023-11-18 18:32:08,938: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2023-11-18 18:32:08,950: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 18:32:08,953: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 18:32:08,953: INFO: common: created directory at: artifacts]
+[2023-11-18 18:32:08,953: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-11-18 18:32:08,953: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-18 18:32:12,624: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-18 18:32:18,574: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x=========x]
+[2023-11-18 18:32:23,064: INFO: main: **************************************]
+[2023-11-18 18:32:23,066: INFO: main: >>>>> stage Prepare Base Model started <<<<<]
+[2023-11-18 18:32:23,075: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 18:32:23,085: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 18:32:23,088: INFO: common: created directory at: artifacts]
+[2023-11-18 18:32:23,090: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-11-18 18:32:23,624: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-11-18 18:32:29,678: INFO: main: >>>>> stage Prepare Base Model completed <<<<<
+
+x=========x]
+[2023-11-18 18:32:29,703: INFO: main: **************************************]
+[2023-11-18 18:32:29,704: INFO: main: >>>>> stage Model Training started <<<<<]
+[2023-11-18 18:32:29,712: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 18:32:29,721: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 18:32:29,724: INFO: common: created directory at: artifacts]
+[2023-11-18 18:32:29,726: INFO: common: created directory at: artifacts\training]
+[2023-11-18 18:33:11,682: INFO: main: >>>>> stage Model Training completed <<<<<
+
+x=========x]
+[2023-11-18 18:33:13,162: INFO: main: **************************************]
+[2023-11-18 18:33:13,176: INFO: main: >>>>> stage Model Evaluation started <<<<<]
+[2023-11-18 18:33:13,185: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 18:33:13,194: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 18:33:13,196: INFO: common: created directory at: artifacts]
+[2023-11-18 18:33:25,404: INFO: common: json file saved at: scores.json]
+[2023-11-18 18:33:27,530: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-11-18 18:33:28,171: INFO: builder_impl: Assets written to: C:\Users\david\AppData\Local\Temp\tmprdeefojc\model\data\model\assets]
+[2023-11-18 18:33:36,315: INFO: dir_util: creating G:\Il mio Drive\PROJECTS\Kidney-Tumor-Detection-End-To-End\mlruns\0\96a1a22f89c246f8ae551fb142c82f47\artifacts\model\data]
+[2023-11-18 18:33:36,333: INFO: dir_util: creating G:\Il mio Drive\PROJECTS\Kidney-Tumor-Detection-End-To-End\mlruns\0\96a1a22f89c246f8ae551fb142c82f47\artifacts\model\data\model]
+[2023-11-18 18:33:36,341: INFO: dir_util: creating G:\Il mio Drive\PROJECTS\Kidney-Tumor-Detection-End-To-End\mlruns\0\96a1a22f89c246f8ae551fb142c82f47\artifacts\model\data\model\assets]
+[2023-11-18 18:33:36,382: INFO: dir_util: creating G:\Il mio Drive\PROJECTS\Kidney-Tumor-Detection-End-To-End\mlruns\0\96a1a22f89c246f8ae551fb142c82f47\artifacts\model\data\model\variables]
+[2023-11-18 18:33:37,029: INFO: main: >>>>> stage Model Evaluation completed <<<<<
+
+x=========x]
+[2023-11-18 18:43:11,625: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2023-11-18 18:43:11,625: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 18:43:11,640: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 18:43:11,640: INFO: common: created directory at: artifacts]
+[2023-11-18 18:43:11,640: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-11-18 18:43:11,640: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-18 18:43:15,271: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-18 18:43:21,269: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x=========x]
+[2023-11-18 18:43:25,456: INFO: main: **************************************]
+[2023-11-18 18:43:25,456: INFO: main: >>>>> stage Prepare Base Model started <<<<<]
+[2023-11-18 18:43:25,473: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 18:43:25,478: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 18:43:25,488: INFO: common: created directory at: artifacts]
+[2023-11-18 18:43:25,491: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-11-18 18:43:26,002: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-11-18 18:43:32,505: INFO: main: >>>>> stage Prepare Base Model completed <<<<<
+
+x=========x]
+[2023-11-18 18:43:32,526: INFO: main: **************************************]
+[2023-11-18 18:43:32,527: INFO: main: >>>>> stage Model Training started <<<<<]
+[2023-11-18 18:43:32,536: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 18:43:32,547: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 18:43:32,549: INFO: common: created directory at: artifacts]
+[2023-11-18 18:43:32,550: INFO: common: created directory at: artifacts\training]
+[2023-11-18 18:44:17,219: INFO: main: >>>>> stage Model Training completed <<<<<
+
+x=========x]
+[2023-11-18 18:44:18,652: INFO: main: **************************************]
+[2023-11-18 18:44:18,652: INFO: main: >>>>> stage Model Evaluation started <<<<<]
+[2023-11-18 18:44:18,668: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 18:44:18,683: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 18:44:18,688: INFO: common: created directory at: artifacts]
+[2023-11-18 18:44:31,276: INFO: common: json file saved at: scores.json]
+[2023-11-18 18:44:33,442: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-11-18 18:44:34,152: INFO: builder_impl: Assets written to: C:\Users\david\AppData\Local\Temp\tmp8bssxdfs\model\data\model\assets]
+[2023-11-18 18:44:43,368: INFO: dir_util: creating G:\Il mio Drive\PROJECTS\Kidney-Tumor-Detection-End-To-End\mlruns\0\f193088758f24b02bc8ad3eb963c1f13\artifacts\model\data]
+[2023-11-18 18:44:43,390: INFO: dir_util: creating G:\Il mio Drive\PROJECTS\Kidney-Tumor-Detection-End-To-End\mlruns\0\f193088758f24b02bc8ad3eb963c1f13\artifacts\model\data\model]
+[2023-11-18 18:44:43,401: INFO: dir_util: creating G:\Il mio Drive\PROJECTS\Kidney-Tumor-Detection-End-To-End\mlruns\0\f193088758f24b02bc8ad3eb963c1f13\artifacts\model\data\model\assets]
+[2023-11-18 18:44:43,482: INFO: dir_util: creating G:\Il mio Drive\PROJECTS\Kidney-Tumor-Detection-End-To-End\mlruns\0\f193088758f24b02bc8ad3eb963c1f13\artifacts\model\data\model\variables]
+[2023-11-18 18:44:45,070: ERROR: main: API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "main.py", line 76, in <module>
+    model_evalution.main()
+  File "g:\il mio drive\projects\kidney-tumor-detection-end-to-end\src\CNN_Classifier\pipeline\stage_04_model_evaluation.py", line 17, in main
+    evaluation.log_into_mlflow()
+  File "g:\il mio drive\projects\kidney-tumor-detection-end-to-end\src\CNN_Classifier\components\model_evaluation_mlflow.py", line 84, in log_into_mlflow
+    mlflow.keras.log_model(self.model, "model", registered_model_name="VGG16Model")
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\tensorflow\__init__.py", line 222, in log_model
+    return Model.log(
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\models\model.py", line 562, in log
+    mlflow.register_model(
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 77, in register_model
+    raise e
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 68, in register_model
+    create_model_response = client.create_registered_model(name)
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\client.py", line 1743, in create_registered_model
+    return self._get_registry_client().create_registered_model(name, tags, description)
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\_model_registry\client.py", line 63, in create_registered_model
+    return self.store.create_registered_model(name, tags, description)
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\store\model_registry\rest_store.py", line 75, in create_registered_model
+    response_proto = self._call_endpoint(CreateRegisteredModel, req_body)
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\store\model_registry\base_rest_store.py", line 42, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 281, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 213, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: ''
+[2023-11-18 18:47:25,272: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2023-11-18 18:47:25,283: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 18:47:25,292: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 18:47:25,294: INFO: common: created directory at: artifacts]
+[2023-11-18 18:47:25,296: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-11-18 18:47:25,297: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-18 18:47:28,624: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-18 18:47:34,599: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x=========x]
+[2023-11-18 18:47:41,416: INFO: main: **************************************]
+[2023-11-18 18:47:41,417: INFO: main: >>>>> stage Prepare Base Model started <<<<<]
+[2023-11-18 18:47:41,426: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 18:47:41,426: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 18:47:41,444: INFO: common: created directory at: artifacts]
+[2023-11-18 18:47:41,448: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-11-18 18:47:42,092: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-11-18 18:47:51,523: INFO: main: >>>>> stage Prepare Base Model completed <<<<<
+
+x=========x]
+[2023-11-18 18:47:51,525: INFO: main: **************************************]
+[2023-11-18 18:47:51,540: INFO: main: >>>>> stage Model Training started <<<<<]
+[2023-11-18 18:47:51,548: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 18:47:51,559: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 18:47:51,563: INFO: common: created directory at: artifacts]
+[2023-11-18 18:47:51,568: INFO: common: created directory at: artifacts\training]
+[2023-11-18 18:48:55,332: INFO: main: >>>>> stage Model Training completed <<<<<
+
+x=========x]
+[2023-11-18 18:48:56,652: INFO: main: **************************************]
+[2023-11-18 18:48:56,667: INFO: main: >>>>> stage Model Evaluation started <<<<<]
+[2023-11-18 18:48:56,667: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 18:48:56,692: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 18:48:56,694: INFO: common: created directory at: artifacts]
+[2023-11-18 18:49:09,150: INFO: common: json file saved at: scores.json]
+[2023-11-18 18:49:11,231: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-11-18 18:49:11,842: INFO: builder_impl: Assets written to: C:\Users\david\AppData\Local\Temp\tmpd8m2y896\model\data\model\assets]
+[2023-11-18 18:49:19,851: INFO: dir_util: creating G:\Il mio Drive\PROJECTS\Kidney-Tumor-Detection-End-To-End\mlruns\0\64ef7cfd8d4d4e1290240e3ba9e356c7\artifacts\model\data]
+[2023-11-18 18:49:19,866: INFO: dir_util: creating G:\Il mio Drive\PROJECTS\Kidney-Tumor-Detection-End-To-End\mlruns\0\64ef7cfd8d4d4e1290240e3ba9e356c7\artifacts\model\data\model]
+[2023-11-18 18:49:19,873: INFO: dir_util: creating G:\Il mio Drive\PROJECTS\Kidney-Tumor-Detection-End-To-End\mlruns\0\64ef7cfd8d4d4e1290240e3ba9e356c7\artifacts\model\data\model\assets]
+[2023-11-18 18:49:19,918: INFO: dir_util: creating G:\Il mio Drive\PROJECTS\Kidney-Tumor-Detection-End-To-End\mlruns\0\64ef7cfd8d4d4e1290240e3ba9e356c7\artifacts\model\data\model\variables]
+[2023-11-18 18:49:20,567: INFO: main: >>>>> stage Model Evaluation completed <<<<<
+
+x=========x]
+[2023-11-18 18:51:30,861: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2023-11-18 18:51:30,872: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 18:51:30,888: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 18:51:30,891: INFO: common: created directory at: artifacts]
+[2023-11-18 18:51:30,893: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-11-18 18:51:30,893: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-18 18:51:34,785: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-18 18:51:40,631: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x=========x]
+[2023-11-18 18:51:44,433: INFO: main: **************************************]
+[2023-11-18 18:51:44,434: INFO: main: >>>>> stage Prepare Base Model started <<<<<]
+[2023-11-18 18:51:44,434: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 18:51:44,454: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 18:51:44,456: INFO: common: created directory at: artifacts]
+[2023-11-18 18:51:44,458: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-11-18 18:51:44,935: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-11-18 18:51:50,863: INFO: main: >>>>> stage Prepare Base Model completed <<<<<
+
+x=========x]
+[2023-11-18 18:51:50,889: INFO: main: **************************************]
+[2023-11-18 18:51:50,889: INFO: main: >>>>> stage Model Training started <<<<<]
+[2023-11-18 18:51:50,898: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 18:51:50,907: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 18:51:50,910: INFO: common: created directory at: artifacts]
+[2023-11-18 18:51:50,911: INFO: common: created directory at: artifacts\training]
+[2023-11-18 18:52:38,604: INFO: main: >>>>> stage Model Training completed <<<<<
+
+x=========x]
+[2023-11-18 18:52:39,813: INFO: main: **************************************]
+[2023-11-18 18:52:39,829: INFO: main: >>>>> stage Model Evaluation started <<<<<]
+[2023-11-18 18:52:39,855: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 18:52:39,864: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 18:52:39,867: INFO: common: created directory at: artifacts]
+[2023-11-18 18:52:56,387: INFO: common: json file saved at: scores.json]
+[2023-11-18 18:52:58,782: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-11-18 18:52:59,463: INFO: builder_impl: Assets written to: C:\Users\david\AppData\Local\Temp\tmpto006qdn\model\data\model\assets]
+[2023-11-18 18:53:07,639: INFO: dir_util: creating G:\Il mio Drive\PROJECTS\Kidney-Tumor-Detection-End-To-End\mlruns\0\6746b556733140c8b476d3fe44476d5f\artifacts\model\data]
+[2023-11-18 18:53:07,662: INFO: dir_util: creating G:\Il mio Drive\PROJECTS\Kidney-Tumor-Detection-End-To-End\mlruns\0\6746b556733140c8b476d3fe44476d5f\artifacts\model\data\model]
+[2023-11-18 18:53:07,673: INFO: dir_util: creating G:\Il mio Drive\PROJECTS\Kidney-Tumor-Detection-End-To-End\mlruns\0\6746b556733140c8b476d3fe44476d5f\artifacts\model\data\model\assets]
+[2023-11-18 18:53:07,712: INFO: dir_util: creating G:\Il mio Drive\PROJECTS\Kidney-Tumor-Detection-End-To-End\mlruns\0\6746b556733140c8b476d3fe44476d5f\artifacts\model\data\model\variables]
+[2023-11-18 18:53:09,306: ERROR: main: API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "main.py", line 76, in <module>
+    model_evalution.main()
+  File "g:\il mio drive\projects\kidney-tumor-detection-end-to-end\src\CNN_Classifier\pipeline\stage_04_model_evaluation.py", line 17, in main
+    evaluation.log_into_mlflow()
+  File "g:\il mio drive\projects\kidney-tumor-detection-end-to-end\src\CNN_Classifier\components\model_evaluation_mlflow.py", line 84, in log_into_mlflow
+    mlflow.keras.log_model(self.model, "model", registered_model_name="VGG16Model")
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\tensorflow\__init__.py", line 222, in log_model
+    return Model.log(
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\models\model.py", line 562, in log
+    mlflow.register_model(
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 77, in register_model
+    raise e
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 68, in register_model
+    create_model_response = client.create_registered_model(name)
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\client.py", line 1743, in create_registered_model
+    return self._get_registry_client().create_registered_model(name, tags, description)
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\_model_registry\client.py", line 63, in create_registered_model
+    return self.store.create_registered_model(name, tags, description)
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\store\model_registry\rest_store.py", line 75, in create_registered_model
+    response_proto = self._call_endpoint(CreateRegisteredModel, req_body)
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\store\model_registry\base_rest_store.py", line 42, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 281, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 213, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: ''
+[2023-11-18 18:54:49,008: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2023-11-18 18:54:49,030: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 18:54:49,038: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 18:54:49,040: INFO: common: created directory at: artifacts]
+[2023-11-18 18:54:49,042: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-11-18 18:54:49,043: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-18 18:54:53,761: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-18 18:54:59,780: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x=========x]
+[2023-11-18 18:55:04,071: INFO: main: **************************************]
+[2023-11-18 18:55:04,071: INFO: main: >>>>> stage Prepare Base Model started <<<<<]
+[2023-11-18 18:55:04,086: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 18:55:04,086: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 18:55:04,101: INFO: common: created directory at: artifacts]
+[2023-11-18 18:55:04,103: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-11-18 18:55:04,586: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-11-18 18:55:11,384: INFO: main: >>>>> stage Prepare Base Model completed <<<<<
+
+x=========x]
+[2023-11-18 18:55:11,400: INFO: main: **************************************]
+[2023-11-18 18:55:11,400: INFO: main: >>>>> stage Model Training started <<<<<]
+[2023-11-18 18:55:11,420: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 18:55:11,426: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 18:55:11,430: INFO: common: created directory at: artifacts]
+[2023-11-18 18:55:11,431: INFO: common: created directory at: artifacts\training]
+[2023-11-18 18:55:52,954: INFO: main: >>>>> stage Model Training completed <<<<<
+
+x=========x]
+[2023-11-18 18:55:54,169: INFO: main: **************************************]
+[2023-11-18 18:55:54,187: INFO: main: >>>>> stage Model Evaluation started <<<<<]
+[2023-11-18 18:55:54,196: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 18:55:54,206: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 18:55:54,208: INFO: common: created directory at: artifacts]
+[2023-11-18 18:56:08,084: INFO: common: json file saved at: scores.json]
+[2023-11-18 18:56:10,606: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-11-18 18:56:11,354: INFO: builder_impl: Assets written to: C:\Users\david\AppData\Local\Temp\tmpchxknird\model\data\model\assets]
+[2023-11-18 18:56:19,798: INFO: dir_util: creating G:\Il mio Drive\PROJECTS\Kidney-Tumor-Detection-End-To-End\mlruns\0\919060dba5524df188b2110d76fdf224\artifacts\model\data]
+[2023-11-18 18:56:19,813: INFO: dir_util: creating G:\Il mio Drive\PROJECTS\Kidney-Tumor-Detection-End-To-End\mlruns\0\919060dba5524df188b2110d76fdf224\artifacts\model\data\model]
+[2023-11-18 18:56:19,819: INFO: dir_util: creating G:\Il mio Drive\PROJECTS\Kidney-Tumor-Detection-End-To-End\mlruns\0\919060dba5524df188b2110d76fdf224\artifacts\model\data\model\assets]
+[2023-11-18 18:56:19,853: INFO: dir_util: creating G:\Il mio Drive\PROJECTS\Kidney-Tumor-Detection-End-To-End\mlruns\0\919060dba5524df188b2110d76fdf224\artifacts\model\data\model\variables]
+[2023-11-18 18:56:21,328: ERROR: main: API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "main.py", line 76, in <module>
+    model_evalution.main()
+  File "g:\il mio drive\projects\kidney-tumor-detection-end-to-end\src\CNN_Classifier\pipeline\stage_04_model_evaluation.py", line 17, in main
+    evaluation.log_into_mlflow()
+  File "g:\il mio drive\projects\kidney-tumor-detection-end-to-end\src\CNN_Classifier\components\model_evaluation_mlflow.py", line 84, in log_into_mlflow
+    mlflow.keras.log_model(self.model, "model", registered_model_name="VGG16Model")
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\tensorflow\__init__.py", line 222, in log_model
+    return Model.log(
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\models\model.py", line 562, in log
+    mlflow.register_model(
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 77, in register_model
+    raise e
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 68, in register_model
+    create_model_response = client.create_registered_model(name)
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\client.py", line 1743, in create_registered_model
+    return self._get_registry_client().create_registered_model(name, tags, description)
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\_model_registry\client.py", line 63, in create_registered_model
+    return self.store.create_registered_model(name, tags, description)
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\store\model_registry\rest_store.py", line 75, in create_registered_model
+    response_proto = self._call_endpoint(CreateRegisteredModel, req_body)
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\store\model_registry\base_rest_store.py", line 42, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 281, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 213, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: ''
+[2023-11-18 18:59:02,461: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2023-11-18 18:59:02,476: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 18:59:02,476: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 18:59:02,492: INFO: common: created directory at: artifacts]
+[2023-11-18 18:59:02,492: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-11-18 18:59:02,492: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-18 18:59:06,169: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-18 18:59:12,150: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x=========x]
+[2023-11-18 18:59:16,151: INFO: main: **************************************]
+[2023-11-18 18:59:16,153: INFO: main: >>>>> stage Prepare Base Model started <<<<<]
+[2023-11-18 18:59:16,162: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 18:59:16,170: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 18:59:16,172: INFO: common: created directory at: artifacts]
+[2023-11-18 18:59:16,174: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-11-18 18:59:16,663: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-11-18 18:59:22,568: INFO: main: >>>>> stage Prepare Base Model completed <<<<<
+
+x=========x]
+[2023-11-18 18:59:22,572: INFO: main: **************************************]
+[2023-11-18 18:59:22,572: INFO: main: >>>>> stage Model Training started <<<<<]
+[2023-11-18 18:59:22,590: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 18:59:22,592: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 18:59:22,602: INFO: common: created directory at: artifacts]
+[2023-11-18 18:59:22,604: INFO: common: created directory at: artifacts\training]
+[2023-11-18 19:00:05,113: INFO: main: >>>>> stage Model Training completed <<<<<
+
+x=========x]
+[2023-11-18 19:00:06,460: INFO: main: **************************************]
+[2023-11-18 19:00:06,479: INFO: main: >>>>> stage Model Evaluation started <<<<<]
+[2023-11-18 19:00:06,488: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 19:00:06,498: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 19:00:06,500: INFO: common: created directory at: artifacts]
+[2023-11-18 19:00:19,274: INFO: common: json file saved at: scores.json]
+[2023-11-18 19:00:21,525: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-11-18 19:00:22,172: INFO: builder_impl: Assets written to: C:\Users\david\AppData\Local\Temp\tmpknt87dxc\model\data\model\assets]
+[2023-11-18 19:00:30,550: INFO: dir_util: creating G:\Il mio Drive\PROJECTS\Kidney-Tumor-Detection-End-To-End\mlruns\0\6cc7895fa47d45e9aea9e3561c9e4f97\artifacts\model\data]
+[2023-11-18 19:00:30,569: INFO: dir_util: creating G:\Il mio Drive\PROJECTS\Kidney-Tumor-Detection-End-To-End\mlruns\0\6cc7895fa47d45e9aea9e3561c9e4f97\artifacts\model\data\model]
+[2023-11-18 19:00:30,576: INFO: dir_util: creating G:\Il mio Drive\PROJECTS\Kidney-Tumor-Detection-End-To-End\mlruns\0\6cc7895fa47d45e9aea9e3561c9e4f97\artifacts\model\data\model\assets]
+[2023-11-18 19:00:30,617: INFO: dir_util: creating G:\Il mio Drive\PROJECTS\Kidney-Tumor-Detection-End-To-End\mlruns\0\6cc7895fa47d45e9aea9e3561c9e4f97\artifacts\model\data\model\variables]
+[2023-11-18 19:00:32,102: ERROR: main: API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "main.py", line 76, in <module>
+    model_evalution.main()
+  File "g:\il mio drive\projects\kidney-tumor-detection-end-to-end\src\CNN_Classifier\pipeline\stage_04_model_evaluation.py", line 17, in main
+    evaluation.log_into_mlflow()
+  File "g:\il mio drive\projects\kidney-tumor-detection-end-to-end\src\CNN_Classifier\components\model_evaluation_mlflow.py", line 84, in log_into_mlflow
+    mlflow.keras.log_model(self.model, "model", registered_model_name="VGG16Model")
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\tensorflow\__init__.py", line 222, in log_model
+    return Model.log(
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\models\model.py", line 562, in log
+    mlflow.register_model(
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 77, in register_model
+    raise e
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 68, in register_model
+    create_model_response = client.create_registered_model(name)
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\client.py", line 1743, in create_registered_model
+    return self._get_registry_client().create_registered_model(name, tags, description)
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\_model_registry\client.py", line 63, in create_registered_model
+    return self.store.create_registered_model(name, tags, description)
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\store\model_registry\rest_store.py", line 75, in create_registered_model
+    response_proto = self._call_endpoint(CreateRegisteredModel, req_body)
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\store\model_registry\base_rest_store.py", line 42, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 281, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 213, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: ''
+[2023-11-18 19:01:26,782: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2023-11-18 19:01:26,799: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 19:01:26,799: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 19:01:26,815: INFO: common: created directory at: artifacts]
+[2023-11-18 19:01:26,816: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-11-18 19:01:26,816: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-18 19:01:30,395: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-18 19:01:36,277: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x=========x]
+[2023-11-18 19:01:40,444: INFO: main: **************************************]
+[2023-11-18 19:01:40,444: INFO: main: >>>>> stage Prepare Base Model started <<<<<]
+[2023-11-18 19:01:40,454: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 19:01:40,465: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 19:01:40,468: INFO: common: created directory at: artifacts]
+[2023-11-18 19:01:40,470: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-11-18 19:01:40,954: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-11-18 19:01:48,178: INFO: main: >>>>> stage Prepare Base Model completed <<<<<
+
+x=========x]
+[2023-11-18 19:01:48,191: INFO: main: **************************************]
+[2023-11-18 19:01:48,192: INFO: main: >>>>> stage Model Training started <<<<<]
+[2023-11-18 19:01:48,201: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 19:01:48,210: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 19:01:48,212: INFO: common: created directory at: artifacts]
+[2023-11-18 19:01:48,214: INFO: common: created directory at: artifacts\training]
+[2023-11-18 19:02:36,195: INFO: main: >>>>> stage Model Training completed <<<<<
+
+x=========x]
+[2023-11-18 19:02:37,523: INFO: main: **************************************]
+[2023-11-18 19:02:37,536: INFO: main: >>>>> stage Model Evaluation started <<<<<]
+[2023-11-18 19:02:37,545: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 19:02:37,554: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 19:02:37,558: INFO: common: created directory at: artifacts]
+[2023-11-18 19:02:54,796: INFO: common: json file saved at: scores.json]
+[2023-11-18 19:02:56,920: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-11-18 19:02:57,559: INFO: builder_impl: Assets written to: C:\Users\david\AppData\Local\Temp\tmpny573u1h\model\data\model\assets]
+[2023-11-18 19:03:05,707: INFO: dir_util: creating G:\Il mio Drive\PROJECTS\Kidney-Tumor-Detection-End-To-End\mlruns\0\f1f3e1de52f5468a8624b2f7a14f685e\artifacts\model\data]
+[2023-11-18 19:03:05,724: INFO: dir_util: creating G:\Il mio Drive\PROJECTS\Kidney-Tumor-Detection-End-To-End\mlruns\0\f1f3e1de52f5468a8624b2f7a14f685e\artifacts\model\data\model]
+[2023-11-18 19:03:05,732: INFO: dir_util: creating G:\Il mio Drive\PROJECTS\Kidney-Tumor-Detection-End-To-End\mlruns\0\f1f3e1de52f5468a8624b2f7a14f685e\artifacts\model\data\model\assets]
+[2023-11-18 19:03:05,785: INFO: dir_util: creating G:\Il mio Drive\PROJECTS\Kidney-Tumor-Detection-End-To-End\mlruns\0\f1f3e1de52f5468a8624b2f7a14f685e\artifacts\model\data\model\variables]
+[2023-11-18 19:03:06,570: INFO: main: >>>>> stage Model Evaluation completed <<<<<
+
+x=========x]
+[2023-11-18 19:04:34,354: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2023-11-18 19:04:34,354: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 19:04:34,377: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 19:04:34,380: INFO: common: created directory at: artifacts]
+[2023-11-18 19:04:34,382: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-11-18 19:04:34,383: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-18 19:04:37,791: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-18 19:04:43,687: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x=========x]
+[2023-11-18 19:04:47,553: INFO: main: **************************************]
+[2023-11-18 19:04:47,568: INFO: main: >>>>> stage Prepare Base Model started <<<<<]
+[2023-11-18 19:04:47,569: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 19:04:47,587: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 19:04:47,590: INFO: common: created directory at: artifacts]
+[2023-11-18 19:04:47,593: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-11-18 19:04:48,069: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-11-18 19:04:53,817: INFO: main: >>>>> stage Prepare Base Model completed <<<<<
+
+x=========x]
+[2023-11-18 19:04:53,834: INFO: main: **************************************]
+[2023-11-18 19:04:53,835: INFO: main: >>>>> stage Model Training started <<<<<]
+[2023-11-18 19:04:53,843: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 19:04:53,852: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 19:04:53,854: INFO: common: created directory at: artifacts]
+[2023-11-18 19:04:53,857: INFO: common: created directory at: artifacts\training]
+[2023-11-18 19:08:06,641: INFO: main: >>>>> stage Model Training completed <<<<<
+
+x=========x]
+[2023-11-18 19:08:07,894: INFO: main: **************************************]
+[2023-11-18 19:08:07,894: INFO: main: >>>>> stage Model Evaluation started <<<<<]
+[2023-11-18 19:08:07,910: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 19:08:07,926: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 19:08:07,929: INFO: common: created directory at: artifacts]
+[2023-11-18 19:08:20,159: INFO: common: json file saved at: scores.json]
+[2023-11-18 19:08:22,252: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-11-18 19:08:22,909: INFO: builder_impl: Assets written to: C:\Users\david\AppData\Local\Temp\tmpccdi79lj\model\data\model\assets]
+[2023-11-18 19:08:31,118: INFO: dir_util: creating G:\Il mio Drive\PROJECTS\Kidney-Tumor-Detection-End-To-End\mlruns\0\b4d3db8a31a74306b4b2c5c310cb37f2\artifacts\model\data]
+[2023-11-18 19:08:31,138: INFO: dir_util: creating G:\Il mio Drive\PROJECTS\Kidney-Tumor-Detection-End-To-End\mlruns\0\b4d3db8a31a74306b4b2c5c310cb37f2\artifacts\model\data\model]
+[2023-11-18 19:08:31,146: INFO: dir_util: creating G:\Il mio Drive\PROJECTS\Kidney-Tumor-Detection-End-To-End\mlruns\0\b4d3db8a31a74306b4b2c5c310cb37f2\artifacts\model\data\model\assets]
+[2023-11-18 19:08:31,186: INFO: dir_util: creating G:\Il mio Drive\PROJECTS\Kidney-Tumor-Detection-End-To-End\mlruns\0\b4d3db8a31a74306b4b2c5c310cb37f2\artifacts\model\data\model\variables]
+[2023-11-18 19:08:31,877: INFO: main: >>>>> stage Model Evaluation completed <<<<<
+
+x=========x]
