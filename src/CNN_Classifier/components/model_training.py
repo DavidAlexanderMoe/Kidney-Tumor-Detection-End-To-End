@@ -4,7 +4,7 @@ from zipfile import ZipFile
 import tensorflow as tf
 import time
 from pathlib import Path
-
+import shutil
 from CNN_Classifier.entity.config_entity import TrainingConfig
 
 
@@ -83,7 +83,6 @@ class Training:
         model.save(path)
 
 
-
     # training function
     def train(self):
         # steps for image classification
@@ -102,3 +101,5 @@ class Training:
             path=self.config.trained_model_path,
             model=self.model
         )
+    
+

@@ -1282,3 +1282,95 @@ OSError: No file or directory found at model\model.h5
 [2023-11-18 20:40:19,987: INFO: _internal: [33mPress CTRL+C to quit[0m]
 [2023-11-18 20:40:21,299: INFO: _internal: 127.0.0.1 - - [18/Nov/2023 20:40:21] "GET / HTTP/1.1" 200 -]
 [2023-11-18 20:40:26,564: INFO: _internal: 127.0.0.1 - - [18/Nov/2023 20:40:26] "POST /predict HTTP/1.1" 200 -]
+[2023-11-18 20:48:53,996: INFO: stage_03_model_training: >>>>> stage Model Training started <<<<<]
+[2023-11-18 20:48:54,012: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 20:48:54,028: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 20:48:54,028: INFO: common: created directory at: artifacts]
+[2023-11-18 20:48:54,028: INFO: common: created directory at: artifacts\training]
+[2023-11-18 20:49:38,623: ERROR: stage_03_model_training: 'Training' object has no attribute 'copy_model']
+Traceback (most recent call last):
+  File "src/CNN_Classifier/pipeline/stage_03_model_training.py", line 26, in <module>
+    obj.main()
+  File "src/CNN_Classifier/pipeline/stage_03_model_training.py", line 19, in main
+    training.copy_model("artifacts/training", "model")
+AttributeError: 'Training' object has no attribute 'copy_model'
+[2023-11-18 20:55:17,055: INFO: stage_03_model_training: >>>>> stage Model Training started <<<<<]
+[2023-11-18 20:55:17,055: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 20:55:17,071: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 20:55:17,071: INFO: common: created directory at: artifacts]
+[2023-11-18 20:55:17,071: INFO: common: created directory at: artifacts\training]
+[2023-11-18 20:55:55,933: ERROR: stage_03_model_training: [Errno 13] Permission denied: 'artifacts/training']
+Traceback (most recent call last):
+  File "src/CNN_Classifier/pipeline/stage_03_model_training.py", line 25, in <module>
+    obj.main()
+  File "src/CNN_Classifier/pipeline/stage_03_model_training.py", line 18, in main
+    training.copy_model("artifacts/training", "model")
+  File "g:\il mio drive\projects\kidney-tumor-detection-end-to-end\src\CNN_Classifier\components\model_training.py", line 89, in copy_model
+    shutil.copy(source_path, destination)
+  File "C:\Users\david\miniconda3\envs\kidney\lib\shutil.py", line 418, in copy
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "C:\Users\david\miniconda3\envs\kidney\lib\shutil.py", line 264, in copyfile
+    with open(src, 'rb') as fsrc, open(dst, 'wb') as fdst:
+PermissionError: [Errno 13] Permission denied: 'artifacts/training'
+[2023-11-18 20:59:06,165: INFO: stage_03_model_training: >>>>> stage Model Training started <<<<<]
+[2023-11-18 20:59:06,188: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 20:59:06,198: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 20:59:06,200: INFO: common: created directory at: artifacts]
+[2023-11-18 20:59:06,202: INFO: common: created directory at: artifacts\training]
+[2023-11-18 20:59:48,374: ERROR: stage_03_model_training: [Errno 13] Permission denied: 'artifacts/training']
+Traceback (most recent call last):
+  File "src/CNN_Classifier/pipeline/stage_03_model_training.py", line 25, in <module>
+    obj.main()
+  File "src/CNN_Classifier/pipeline/stage_03_model_training.py", line 18, in main
+    training.copy_model("artifacts/training", "model")
+  File "g:\il mio drive\projects\kidney-tumor-detection-end-to-end\src\CNN_Classifier\components\model_training.py", line 87, in copy_model
+    shutil.copy2(source_path, destination_path)
+  File "C:\Users\david\miniconda3\envs\kidney\lib\shutil.py", line 435, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "C:\Users\david\miniconda3\envs\kidney\lib\shutil.py", line 264, in copyfile
+    with open(src, 'rb') as fsrc, open(dst, 'wb') as fdst:
+PermissionError: [Errno 13] Permission denied: 'artifacts/training'
+[2023-11-18 21:01:59,513: INFO: stage_03_model_training: >>>>> stage Model Training started <<<<<]
+[2023-11-18 21:01:59,513: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 21:01:59,529: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 21:01:59,529: INFO: common: created directory at: artifacts]
+[2023-11-18 21:01:59,529: INFO: common: created directory at: artifacts\training]
+[2023-11-18 21:02:40,053: INFO: stage_03_model_training: >>>>> stage Model Training completed <<<<<
+
+x=========x]
+[2023-11-18 21:02:51,490: INFO: stage_04_model_evaluation: >>>>> stage Model Evaluation started <<<<<]
+[2023-11-18 21:02:51,492: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 21:02:51,509: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 21:02:51,518: INFO: common: created directory at: artifacts]
+[2023-11-18 21:03:06,334: INFO: common: json file saved at: scores.json]
+[2023-11-18 21:03:16,086: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-11-18 21:03:16,751: INFO: builder_impl: Assets written to: C:\Users\david\AppData\Local\Temp\tmpbvy_newd\model\data\model\assets]
+[2023-11-18 21:04:09,101: INFO: stage_04_model_evaluation: >>>>> stage Model Evaluation completed <<<<<
+
+x=========x]
+[2023-11-18 21:04:30,211: INFO: stage_03_model_training: >>>>> stage Model Training started <<<<<]
+[2023-11-18 21:04:30,227: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 21:04:30,240: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 21:04:30,244: INFO: common: created directory at: artifacts]
+[2023-11-18 21:04:30,246: INFO: common: created directory at: artifacts\training]
+[2023-11-18 21:05:10,421: INFO: stage_03_model_training: >>>>> stage Model Training completed <<<<<
+
+x=========x]
+[2023-11-18 21:05:21,931: INFO: stage_04_model_evaluation: >>>>> stage Model Evaluation started <<<<<]
+[2023-11-18 21:05:21,948: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 21:05:21,953: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 21:05:21,960: INFO: common: created directory at: artifacts]
+[2023-11-18 21:05:35,662: INFO: common: json file saved at: scores.json]
+[2023-11-18 21:05:39,357: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-11-18 21:05:40,043: INFO: builder_impl: Assets written to: C:\Users\david\AppData\Local\Temp\tmpdogqghc3\model\data\model\assets]
+[2023-11-18 21:06:13,278: INFO: stage_04_model_evaluation: >>>>> stage Model Evaluation completed <<<<<
+
+x=========x]
+[2023-11-18 21:08:04,677: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.29:8080]
+[2023-11-18 21:08:04,677: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-11-18 21:08:06,470: INFO: _internal: 127.0.0.1 - - [18/Nov/2023 21:08:06] "GET / HTTP/1.1" 200 -]
+[2023-11-18 21:08:23,593: INFO: _internal: 127.0.0.1 - - [18/Nov/2023 21:08:23] "POST /predict HTTP/1.1" 200 -]
+[2023-11-18 21:08:29,965: INFO: _internal: 127.0.0.1 - - [18/Nov/2023 21:08:29] "POST /predict HTTP/1.1" 200 -]

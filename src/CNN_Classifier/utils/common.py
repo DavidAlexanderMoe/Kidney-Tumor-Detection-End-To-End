@@ -13,13 +13,14 @@ from box import ConfigBox
 from pathlib import Path
 from typing import Any
 import base64
+import shutil
 
 
 
 # ALL FUNCTIONS I WILL USE IN THIS PROJECT
 # define all the functions I will later import in other files
 
-@ensure_annotations         # decorator
+@ensure_annotations
 def read_yaml(path_to_yaml: Path) -> ConfigBox:     # returns a ConfigBox type
     """reads yaml file and returns the contents
 
@@ -143,3 +144,4 @@ def decodeImage(imgstring, fileName):
 def encodeImageIntoBase64(croppedImagePath):
     with open(croppedImagePath, "rb") as f:
         return base64.b64encode(f.read())
+    
