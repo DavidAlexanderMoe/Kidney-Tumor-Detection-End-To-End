@@ -47,3 +47,31 @@ Git commands here
         - ...
         - ...
 Amazing, now if i wanto to update or change something i can just modify the config.yaml file due to the amazing project structure.
+
+
+################################
+Do the same for every stage of the model development.
+###############################
+
+
+DVC:
+Pipeline tracking with DVC
+
+Write code -> cache: false -> make sure you have the .git file inside the repo
+-> open terminal -> dvc init -> delete artifacts to run the pipeline again using dvc
+-> comment out evaluation.log_into_mlflow() in 04 stage
+-> dvc repro (run the dvc.yaml file to run the pipeline) (it will track everything in the dvc.lock file)
+If you retype after running the code dvc repro it will let you select the stages to do!
+
+------------------------------------------------------------
+$ dvc repro
+Stage 'data_ingestion' didn't change, skipping
+Stage 'prepare_base_model' didn't change, skipping
+Stage 'training' didn't change, skipping
+Stage 'evaluation' didn't change, skipping
+Data and pipelines are up to date.
+------------------------------------------------------------
+
+If i delete a stage from the artifacts directory/make changes to the code and retype dvc repro it will skip the present stages 
+and it will do the missing ones!
+If you do not make changes in the code the dvc won't run.
