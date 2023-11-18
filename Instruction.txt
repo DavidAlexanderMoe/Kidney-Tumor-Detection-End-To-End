@@ -53,6 +53,12 @@ Amazing, now if i wanto to update or change something i can just modify the conf
 Do the same for every stage of the model development.
 ###############################
 
+REMEMBER TO RUN THIS BEFORE RUNNING THE PIPELINE (when closing and reopening program or terminal):
+
+export MLFLOW_TRACKING_URI=https://dagshub.com/DavidAlexanderMoe/Kidney-Tumor-Detection-End-To-End.mlflow
+export MLFLOW_TRACKING_USERNAME=DavidAlexanderMoe 
+export MLFLOW_TRACKING_PASSWORD=...
+
 
 DVC:
 Pipeline tracking with DVC

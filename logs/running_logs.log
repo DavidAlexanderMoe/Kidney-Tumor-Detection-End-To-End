@@ -1192,3 +1192,41 @@ x=========x]
 [2023-11-18 20:03:18,224: INFO: stage_04_model_evaluation: >>>>> stage Model Evaluation completed <<<<<
 
 x=========x]
+[2023-11-18 20:07:00,985: INFO: stage_04_model_evaluation: >>>>> stage Model Evaluation started <<<<<]
+[2023-11-18 20:07:01,000: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 20:07:01,017: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 20:07:01,019: INFO: common: created directory at: artifacts]
+[2023-11-18 20:07:15,628: INFO: common: json file saved at: scores.json]
+[2023-11-18 20:07:16,826: ERROR: stage_04_model_evaluation: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "src/CNN_Classifier/pipeline/stage_04_model_evaluation.py", line 26, in <module>
+    obj.main()
+  File "src/CNN_Classifier/pipeline/stage_04_model_evaluation.py", line 18, in main
+    evaluation.log_into_mlflow()  # put # since i want to run the entire pepline with dvc
+  File "g:\il mio drive\projects\kidney-tumor-detection-end-to-end\src\CNN_Classifier\components\model_evaluation_mlflow.py", line 71, in log_into_mlflow
+    with mlflow.start_run():
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\fluent.py", line 350, in start_run
+    active_run_obj = client.create_run(
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\client.py", line 275, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 131, in create_run
+    return self.store.create_run(
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 175, in create_run
+    response_proto = self._call_endpoint(CreateRun, req_body)
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 56, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 281, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "C:\Users\david\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 213, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+[2023-11-18 20:08:19,694: INFO: stage_04_model_evaluation: >>>>> stage Model Evaluation started <<<<<]
+[2023-11-18 20:08:19,708: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 20:08:19,714: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 20:08:19,719: INFO: common: created directory at: artifacts]
+[2023-11-18 20:08:33,099: INFO: common: json file saved at: scores.json]
+[2023-11-18 20:08:48,163: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-11-18 20:08:48,871: INFO: builder_impl: Assets written to: C:\Users\david\AppData\Local\Temp\tmpcyx856qf\model\data\model\assets]
+[2023-11-18 20:09:41,773: INFO: stage_04_model_evaluation: >>>>> stage Model Evaluation completed <<<<<
+
+x=========x]
