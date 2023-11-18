@@ -1139,3 +1139,56 @@ x=========x]
 [2023-11-18 19:22:07,063: INFO: main: >>>>> stage Model Evaluation completed <<<<<
 
 x=========x]
+[2023-11-18 19:50:00,146: INFO: stage_01_data_ingestion: >>>>> stage Data Ingestion stage started <<<<<]
+[2023-11-18 19:50:00,160: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 19:50:00,167: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 19:50:00,178: INFO: common: created directory at: artifacts]
+[2023-11-18 19:50:00,178: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-11-18 19:50:00,178: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-18 19:50:03,479: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-18 19:50:09,949: INFO: stage_01_data_ingestion: >>>>> stage Data Ingestion stage completed <<<<<
+
+x=========x]
+[2023-11-18 19:51:03,791: INFO: stage_02_prepare_base_model: >>>>> stage Prepare Base Model started <<<<<]
+[2023-11-18 19:51:03,803: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 19:51:03,811: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 19:51:03,814: INFO: common: created directory at: artifacts]
+[2023-11-18 19:51:03,819: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-11-18 19:51:04,323: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-11-18 19:51:04,850: INFO: stage_02_prepare_base_model: >>>>> stage Prepare Base Model completed <<<<<
+
+x=========x]
+[2023-11-18 19:51:15,106: INFO: stage_03_model_training: >>>>> stage Model Training started <<<<<]
+[2023-11-18 19:51:15,123: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 19:51:15,135: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 19:51:15,137: INFO: common: created directory at: artifacts]
+[2023-11-18 19:51:15,146: INFO: common: created directory at: artifacts\training]
+[2023-11-18 19:53:01,259: INFO: stage_03_model_training: >>>>> stage Model Training completed <<<<<
+
+x=========x]
+[2023-11-18 19:53:12,237: INFO: stage_04_model_evaluation: >>>>> stage Model Evaluation started <<<<<]
+[2023-11-18 19:53:12,253: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 19:53:12,260: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 19:53:12,268: INFO: common: created directory at: artifacts]
+[2023-11-18 19:53:30,908: INFO: common: json file saved at: scores.json]
+[2023-11-18 19:53:30,930: INFO: common: json file saved at: scores.json]
+[2023-11-18 19:53:30,931: INFO: stage_04_model_evaluation: >>>>> stage Model Evaluation completed <<<<<
+
+x=========x]
+[2023-11-18 19:58:47,884: INFO: stage_03_model_training: >>>>> stage Model Training started <<<<<]
+[2023-11-18 19:58:47,900: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 19:58:47,918: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 19:58:47,921: INFO: common: created directory at: artifacts]
+[2023-11-18 19:58:47,923: INFO: common: created directory at: artifacts\training]
+[2023-11-18 20:02:50,108: INFO: stage_03_model_training: >>>>> stage Model Training completed <<<<<
+
+x=========x]
+[2023-11-18 20:03:03,597: INFO: stage_04_model_evaluation: >>>>> stage Model Evaluation started <<<<<]
+[2023-11-18 20:03:03,613: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-18 20:03:03,623: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-18 20:03:03,625: INFO: common: created directory at: artifacts]
+[2023-11-18 20:03:18,195: INFO: common: json file saved at: scores.json]
+[2023-11-18 20:03:18,223: INFO: common: json file saved at: scores.json]
+[2023-11-18 20:03:18,224: INFO: stage_04_model_evaluation: >>>>> stage Model Evaluation completed <<<<<
+
+x=========x]
