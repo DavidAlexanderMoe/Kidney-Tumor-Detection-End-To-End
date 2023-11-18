@@ -81,3 +81,24 @@ Data and pipelines are up to date.
 If i delete a stage from the artifacts directory/make changes to the code and retype dvc repro it will skip the present stages 
 and it will do the missing ones!
 If you do not make changes in the code the dvc won't run.
+
+
+dvc dag is the pipeline graph to check dependencies of the pipeline:
+
+$ dvc dag
++----------------+            +--------------------+ 
+| data_ingestion |            | prepare_base_model |
++----------------+*****       +--------------------+
+         *             *****             *
+         *                  ******       *
+         *                        ***    *
+         **                        +----------+
+           **                      | training |
+             ***                   +----------+
+                ***             ***
+                   **         **
+                     **     **
+                  +------------+
+                  | evaluation |
+                  +------------+
+
