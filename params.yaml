@@ -5,7 +5,7 @@ AUGMENTATION: True          # i want to perform runtime augmentation
 IMAGE_SIZE: [224, 224, 3]   # input_shape for VGG 16 model (documentation: https://keras.io/api/applications/vgg/)
 BATCH_SIZE: 16              # small because i will perform training on cpu
 INCLUDE_TOP: False          # remove last FC layers
-EPOCHS: 1                   # 1 epoch training -> set to higher numbers
+EPOCHS: 2                   # 1 epoch training -> set to higher numbers
 CLASSES: 2                  # Normal and tumor
 WEIGHTS: imagenet           # weights from imagenet data
 LEARNING_RATE: 0.01         # lr step size
