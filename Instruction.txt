@@ -106,3 +106,8 @@ $ dvc dag
 app.py
 run the app and then copy http://127.0.0.1:8080 and if you want to retrain the model just add http://127.0.0.1:8080/train
 to restart training and pipeline
+
+
+######################################
+
+DOCKERIZATION &AWS CI/CD Deployment
