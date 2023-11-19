@@ -2,6 +2,7 @@ artifacts/*
 src/CNN_Classifier.egg-info/*
 Instruction.txt
 .env
+logs/running_logs.log
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
