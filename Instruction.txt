@@ -111,3 +111,75 @@ to restart training and pipeline
 ######################################
 
 DOCKERIZATION &AWS CI/CD Deployment
+
+General info:
+1. Build docker image of the source code
+2. Push your docker image to ECR (elastic container registry)
+3. Launch Your EC2 (virtual machine)
+4. Pull Your image from ECR in EC2
+5. Lauch your docker image in EC2
+
+1. Login to AWS console.
+2. Create IAM user for deployment
+- when doing the Deployment comment out the evaluation.log_into_mlflow() function since it is not needed (it was needed only for model development)
+- enter IAM service on AWS console -> utenti (user on left side) -> create new -> kidney -> attach policies directly (1. AmazonEC2ContainerRegistryFullAccess
+2. AmazonEC2FullAccess) -> next -> create user -> enter user -> credenziali di sicurezza -> chiavi di accesso -> crea chiavi di accesso
+-> chiavi per accedere all'account AWS -> CLI -> crea chiave di accesso -> download csv file
+
+3. Create ECR repo to store/save docker image
+- go back to aws homepage -> search and click for ECR -> crea repository -> privata, name, create -> copy uri
+- Save the URI: 406660890134.dkr.ecr.us-east-1.amazonaws.com/kidney
+
+4. Create EC2 machine (Ubuntu) + 5. Open EC2 and Install docker in EC2 Machine:
+- AWS homepage -> ec2 -> launch instance -> name kidney-machine, ubuntu, instance type (DL project --> at least 8gb ram --> t2.large),
+create key pair Kidney and assign it -> allow ssh, https, http -> storage size (GiB) 32 gb -> launch instance
+- istanze -> refresh and wait till it is running -> click on instance is -> connect -> connect again
+-> launches a terminal where we will install all the necessary tools
+- terminal commands:
+clear
+#optional
+sudo apt-get update -y
+sudo apt-get upgrade
+--> yes
+--> if strange window appears press enter
+
+#required
+# install docker on ec2 machine
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
+sudo usermod -aG docker ubuntu
+newgrp docker
+docker --version # to see if docker is running
+
+6. Configure EC2 as self-hosted runner:
+-> go to github -> project settings -> actions -> runners -> new self hosted runner -> linux and copy one by one all the commands
+in the ec2 machine on aws to connect aws ec2 to my github -> run all commands -> (name of runner group) enter -> (name of runner) self-hosted
+-> enter -> enter -> copy all apart from the last one
+-> back to github -> runners -> if "idle" then it means it is connectedù
+
+7. Setup github secrets:
+-> github project settings -> secrets and variables -> actions -> new repo secret -> enter this
+# name 
+AWS_ACCESS_KEY_ID
+# secret 
+copy the first one from download csv
+add secret
+
+# new repo secret
+# name
+AWS_SECRET_ACCESS_KEY
+# secret
+copy second from csv
+
+# smae for these
+AWS_REGION = us-east-1
+
+# uri is 406660890134.dkr.ecr.us-east-1.amazonaws.com/kidney
+# copy till .com
+AWS_ECR_LOGIN_URI = 406660890134.dkr.ecr.us-east-1.amazonaws.com
+# kidney
+ECR_REPOSITORY_NAME = kidney
+
+everything is added and now i'm ready to push. make a change to the code and revert it to push to github
+make sure everything is fine. there won't be any container running at first so these 3 lines in .github\workflows\main.yaml are commented.
+when depolyed, you need to uncomment these

@@ -1,9 +1,11 @@
 # CI/CD commands
 
-# copied fro web
-# deployment on AWS using github actions
+# copied from web
+# deployment on AWS using Github Actions(a CI/CD framework)
 name: workflow
 
+# Trigger:
+# The workflow is triggered on a push event to the main branch, excluding changes to the README.md file.
 on:
   push:
     branches:
@@ -11,10 +13,15 @@ on:
     paths-ignore:
       - 'README.md'
 
+# Permissions:
+# Specifies permissions for the workflow, indicating that it requires write access to an ID token and read access to the repository contents.
 permissions:
   id-token: write
   contents: read
 
+# Jobs:
+# Defines three jobs: integration, build-and-push-ecr-image, and Continuous-Deployment.
+# - 1 - The integration job runs on an Ubuntu environment, checks out the code, and performs linting and unit tests.
 jobs:
   integration:
     name: Continuous Integration
@@ -29,6 +36,9 @@ jobs:
       - name: Run unit tests
         run: echo "Running unit tests"
 
+# - 2 - The build-and-push-ecr-image job is responsible for building a Docker image, tagging it, and pushing it to Amazon 
+# Elastic Container Registry (ECR). It runs on Ubuntu, installs some utilities, configures AWS credentials, logs in to ECR,
+# and builds/pushes the Docker image.
   build-and-push-ecr-image:
     name: Continuous Delivery
     needs: integration
@@ -66,7 +76,8 @@ jobs:
           docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
           echo "::set-output name=image::$ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG"
           
-          
+# - 3 - The Continuous-Deployment job runs on a self-hosted environment. It checks out the code, configures AWS credentials,
+# logs in to ECR, pulls the latest Docker image, runs the Docker image as a container, and performs some cleanup tasks.                  
   Continuous-Deployment:
     needs: build-and-push-ecr-image
     runs-on: self-hosted
@@ -75,7 +86,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Configure AWS credentials
-        uses: aws-actions/configure-aws-credentials@v1
+        uses: aws-actions/configure-aws-credentials@v1      # this is an aws configuration using a github action
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
@@ -100,3 +111,6 @@ jobs:
       - name: Clean previous images and containers
         run: |
          docker system prune -f
+# Docker Operations:
+# The Docker-related steps involve building, tagging, and pushing a Docker image to an Amazon ECR repository.
+# The image is then pulled in the Continuous-Deployment job, and a container is run based on that image.
