@@ -183,3 +183,16 @@ ECR_REPOSITORY_NAME = kidney
 everything is added and now i'm ready to push. make a change to the code and revert it to push to github
 make sure everything is fine. there won't be any container running at first so these 3 lines in .github\workflows\main.yaml are commented.
 when depolyed, you need to uncomment these
+
+push to github -> refresh repo and see a yellow icon on top (workflow is running) -> click on actions on top -> click on update and
+see the CI/CD pipeline happening. wait wait wait for CDelivery and CDeployment (pull image and launch it into ec2 machine)
+
+when everything is fine, check on app.py the port on which the app is running (8080) -> i need to configure the port -> open aws
+-> go instances in ec2 -> click on instance id -> security -> click on the security group code -> edit inbound rules (top right on table)
+-> add rule -> custom tcp, port number/intervallo porte: 8080, select 0.0.0.0/0 -> save rules
+go back to ec2 -> click on instance id -> copy public IPv4 address -> paste it on chrome and add :port# (:8080)
+the app will work also if you close (x) aws website
+if you want to train the model add /train to the url and it will start the training
+
+to terminate the instance (since it will charge me money) go to ec2 -> instances -> terminate instance and see that it is shutting down
+delete also ecr -> delete iam user kidney -> now the app won't be running no more
