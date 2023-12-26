@@ -48,10 +48,8 @@ pip install -r requirements.txt
 python app.py
 ```
 
-Now,
-```bash
-open up you local host and port
-```
+Now, open up your local host and port.
+
 
 
 
@@ -93,14 +91,14 @@ export MLFLOW_TRACKING_PASSWORD=...
 MLflow
 
  - Its Production Grade
- - Trace all of your expriements
- - Logging & taging your model
+ - Trace all of your experiments
+ - Logging & tagging your model
 
 
 DVC 
 
- - Its very lite weight for POC only
- - lite weight expriements tracker
+ - Its very lightweight for POC only
+ - lite weight experiments tracker
  - It can perform Orchestration (Creating Pipelines)
 
 
@@ -113,7 +111,7 @@ DVC
 
 	#with specific access
 
-	1. EC2 access : It is virtual machine
+	1. EC2 access: It is virtual machine
 
 	2. ECR: Elastic Container registry to save your docker image in aws
 
